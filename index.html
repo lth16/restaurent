@@ -5,12 +5,367 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
     <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="trang_chu.css">
+    <title>Trang chủ</title>
+    <script src='https://kit.fontawesome.com/c9948166d2.js' crossorigin='anonymous'></script>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p' crossorigin='anonymous'></script>
 </head>
 
 <body>
-    <h1>Trang này chưa xong!!Chờ vài ngày nữa mới được ngắm</h1>
+    <div class="wrap">
+        <div class="header">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-3 col-md-2">
+                        <div class="header-left">
+                            <div class="logo1">
+                                <a href="index.html"><img src="logo.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7 col-md-6">
+                        <div class="header-center">
+                            <ul class="nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="nav-item thucdon">
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Thực đơn</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="thuc_don_lau.html">Lẩu phan</a></li>
+                                            <li><a class="dropdown-item" href="thuc_don_buffet.html">Làu buffet</a></li>
+                                            <li><a class="dropdown-item" href="thuc_don_tong.html">Tòng</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="dat_ban.html">Đặt bàn</a>
+                                </li>
+                                <li class="nav-item thucdon">
+
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Đặt món</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="dat_mon_lau.html">Lẩu </a></li>
+                                            <li><a class="dropdown-item" href="dat_mon_mi_vi.html">Mĩ vị Trung Hoa</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gioi_thieu.html">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="dia_chi.html">Địa chỉ</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-1 col-md-2">
+                        <div class="header-right ">
+                            <button class="btn btn1 border-3 rounded-pill ">
+                                <a class="btn-dangnhap " href="dang_ki.html">Đăng kí  <span class="ions">
+                                    <i class="fas fa-user-alt iconss"></i>
+                                   </span></a>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="col-1 col-md-2">
+                        <div class="header-right">
+                            <button class="btn border-3 rounded-pill ">
+                                <a class="btn-dangnhap " href="dang_nhap.html">Đăng nhập  <span class="ions">
+                                    <i class="fas fa-user-alt iconss"></i>
+                                   </span></a>
+                            </button>
+
+
+                        </div>
+                        <div class="menu-phone">
+                            <div class="offcanvas offcanvas-end" id="demo">
+                                <div class="offcanvas-header">
+
+                                    <button type="button" class="btn-close text-reset close" data-bs-dismiss="offcanvas">
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="sidenav-mobile-menu">
+                                            
+                                            <div class="submenu-link"><a href="index.html">Trang chủ</a></div>
+                                            <hr>
+                                            <div class="submenu-link"><a href="gioi_thieu.html">Giới thiệu</a></div>
+                                            <hr>
+                                            <div class="submenu-link">
+                                                <div class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Thực đơn</a>
+                                                    <ul class="dropdown-menu">
+                                                      <li><a class="dropdown-item" href="thuc_don_lau.html">Lẩu phan</a></li>
+                                                      <li><a class="dropdown-item" href="thuc_don_buffet.html">Làu Buffet</a></li>
+                                                      <li><a class="dropdown-item" href="thuc_don_tong.html">Tòng</a></li>
+                                                    </ul>
+                                                  </div>
+                                            </div>
+                                            <hr>
+                                            <div class="submenu-link"><a href="dat_ban.html" target="_blank" >Đặt bàn</a></div>
+                                            <hr>
+                                            <div class="submenu-link">
+                                                <div class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Đặt món</a>
+                                                    <ul class="dropdown-menu">
+                                                      <li><a class="dropdown-item" href="dat_mon_lau.html">Lẩu</a></li>
+                                                      <li><a class="dropdown-item" href="dat_mon_mi_vi.html">Mĩ vị Trung Hoa</a></li>
+                                                    </ul>
+                                                  </div>
+                                            </div>
+                                        <hr>
+                                        <div class="submenu-link"><a href="dia_chi.html" target="_blank">Địa chỉ</a></div>
+                                        <hr>
+                                        <div class="submenu-link">
+                                            <a href="dang_nhap.html">Đăng nhập</a>  
+                                        </div>
+                                        <hr>
+                                        <div class="submenu-link">
+                                            <a href="dang_ki.html">Đăng kí</a>  
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                                <i class="fa fa-align-justify" aria-hidden="true"></i>
+                              </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="wrapper-content">
+                <div class="LayoutPhanExpress" id="main-content" role="main">
+                    <div class="portlet-layout">
+                        <div class="portlet-column portlet-column-only" id="column-1">
+                            <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+                                <div class="portlet-boundary portlet-boundary_LauSliderBanner_  portlet-static portlet-static-end decorate  " id="p_p_id_LauSliderBanner_">
+                                    <span id="p_LauSliderBanner"></span>
+                                    <section class="portlet" id="portlet_LauSliderBanner">
+                                        <div class="portlet-content">
+                                            <div class=" portlet-content-container">
+                                                <div class="portlet-body">
+                                                    <div class="SliderbannerLau">
+                                                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                                                            <!-- Indicators/dots -->
+                                                            <div class="carousel-indicators">
+                                                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                                            </div>
+
+                                                            <!-- The slideshow/carousel -->
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="https://cdn.lauphan.com/photo-storage/myFile-1618050151695.jpeg" alt="Los Angeles" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="https://cdn.lauphan.com/photo-storage/myFile-1619424728612.jpeg" alt="Chicago" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="https://cdn.lauphan.com/photo-storage/myFile-1624870833291.jpeg" alt="New York" class="d-block w-100">
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Left and right controls/icons -->
+                                                            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                                              <span class="carousel-control-prev-icon"></span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                                              <span class="carousel-control-next-icon"></span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="portlet-boundary portlet-boundary_LPSetGia_  portlet-static portlet-static-end decorate  " id="p_p_id_LPSetGia_INSTANCE_7uBVAHQsUdXX_">
+                                    <span id="p_LPSetGia_INSTANCE_7uBVAHQsUdXX"></span>
+                                    <section class="portlet" id="portlet_LPSetGia_INSTANCE_7uBVAHQsUdXX">
+                                        <div class="portlet-content">
+                                            <div class=" portlet-content-container">
+                                                <div class="portlet-body">
+                                                    <div class="main-set-gia">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-4">
+                                                                    <div class="box-set-gia">
+                                                                        <div class="box-gia-lauphan">
+                                                                            <div class="gia-lauphan">Set <span>129K</span></div>
+                                                                            <div class="sologan-gia">Gọi thả ga, ăn thật đã</div>
+                                                                            <div class="somon">9 món</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1617847170490.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_lau.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-4">
+                                                                    <div class="box-set-gia">
+                                                                        <div class="box-gia-lauphan">
+                                                                            <div class="gia-lauphan">Set <span>179K</span></div>
+                                                                            <div class="sologan-gia">Thêm thật nhiều món hấp dẫn</div>
+                                                                            <div class="somon">24 món</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1617847257643.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_lau.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-md-4">
+                                                                    <div class="box-set-gia">
+                                                                        <div class="box-gia-lauphan">
+                                                                            <div class="gia-lauphan">Set <span>219K</span></div>
+                                                                            <div class="sologan-gia">Special</div>
+                                                                            <div class="somon">Hải sản</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1617847283857.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_lau.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="row">
+
+                                                                <div class="col-12 col-md-6">
+                                                                    <div class="box-set-gia">
+                                                                        <div class="box-gia">
+                                                                            <div class="gia">Set <span>239K</span></div>
+                                                                            <div class="sologan-gia">Thịt nướng thơm lừng</div>
+                                                                            <div class="somon">Dimsum</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1624877430554.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_buffet.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-md-6">
+                                                                    <div class="box-set-gia">
+                                                                        <div class="box-gia">
+                                                                            <div class="gia">Set <span>299K</span></div>
+                                                                            <div class="sologan-gia">Hải sản đa dạng</div>
+                                                                            <div class="somon">Nhiều món</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1624877441523.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_buffet.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="row">
+
+                                                                <div class="col-12 col-md-6">
+                                                                    <div class="box-set-gia" id="ttt">
+                                                                        <div class="box-gia">
+                                                                            <div class="gia">Chỉ từ <span>30K</span></div>
+                                                                            <div class="sologan-gia">Tha hồ chọn món</div>
+                                                                            <div class="somon">1 món</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1635158300017.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_tong.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-md-6">
+                                                                    <div class="box-set-gia" id="ttt">
+                                                                        <div class="box-gia">
+                                                                            <div class="gia">Chỉ từ <span>30K</span></div>
+                                                                            <div class="sologan-gia">Tận hưởng đồ uống</div>
+                                                                            <div class="somon">1 món</div>
+                                                                        </div>
+                                                                        <div class="setgia-img">
+                                                                            <img src="https://cdn.lauphan.com/photo-storage/myFile-1635158305571.jpeg" class="img-fluid">
+                                                                            <div class="detail"><a href="thuc_don_tong.html">Xem thực đơn</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </section>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="khoi">
+                    <div class="footer1">
+                        <div class="info">
+                            <div>CÔNG TY CỔ PHẦN WAAT-WAAT</div>
+                            <div>Địa chỉ: Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội</div>
+                            <div>Mã số thuế: 0108796725</div>
+                            <div>Ngày hoạt động: 01/01/2022</div>
+                            <div>Giấy phép kinh doanh: 0108796725</div>
+                        </div>
+                    </div>
+                    <div class="footer0">
+                        <div class="footer2">
+                            <div>
+                                <a href="https://www.facebook.com/profile.php?id=100021725888944">
+                                    <i class="fab fa-facebook icon"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com/luong_thi_huyen_16_2/">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.tiktok.com/@huyen160202">
+                                    <i class="fab fa-tiktok icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="dang_ki.js"></script>
 </body>
 
 </html>
